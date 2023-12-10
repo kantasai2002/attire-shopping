@@ -1,0 +1,150 @@
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+    
+}
+body{
+    font-family: var(--sm-font);
+}
+/* title */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+} 
+
+#header
+{
+
+    background: url("images/banner-img-1.jpg")top/cover no-repeat;
+}
+.sale
+{
+    margin-left: -9rem;
+}
+.i3
+{
+    flex-direction:row;
+}
+.collection-img span
+{
+    background-color:var(--pink);
+    top: 10px;
+    right: 50px;
+    width: 46px;
+    height: 46px;
+    border-radius:50%;
+}
+
+
+.active-filter-btn{
+    /* background:var(--pink)!important ;
+
+    color: #c01313!important; */
+ border-color:var(--pink)!important;
+}
+ .filter-button-group .btn:hover{
+    color: #c60b0b!important;
+}
+.filter-button-group .btn:hover
+{
+    background-color: brown;
+
+}  
+.filter-button-group.btn:hover
+{
+    text-decoration-color: bisque;
+}
+.special-img span{
+    top: 20px;
+    right: 20px;
+
+    
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+} 
+/* offers */
+#offers
+{
+    
+ background: url("images/offer_img.jpg") center/cover no-repeat;
+}
+.padd
+{
+    padding-top:20% ;
+}
+.offers-content span
+{
+font-size: 35px;
+}
+.offers-content h2
+{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .offers-content.btn{
+    background-color: var(--pink);
+    border-radius: 50%;
+ } 
+ .offers-content.button:hover{
+    background-color: var(--blue);
+ }
+ .btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btns button):hover{
+   
+    background-color: var(--pink);
+     color: #fff;
+     border-color: var(--pink);
+ }
+
+
+ /* newsletter  */
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+#newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group{
+    max-width: 500px;
+}
+ #newsletter .form-control{
+    border-top-left-radius:25px 25px ;
+    border-bottom-left-radius:25px 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+} 
+#newsletter .btn{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+#newsletter .btn:hover{
+    background-color: #000;
+    border-color: #000;
+}
+.input-group.button
+{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+ 
+ 
+
